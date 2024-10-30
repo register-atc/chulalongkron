@@ -1,0 +1,4 @@
+@media only screen and (max-width: 1024px) {
+	.left_column_container{display:table-cell; background-color:#EEE; padding: 10px 10px 10px 10px; width:250px; vertical-align: top;}
+	.left_menu .hide_menu_button{text-align: center; padding: 10px 0px; margin-bottom: 10px; display:none;}
+}

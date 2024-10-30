@@ -1,0 +1,48 @@
+@media only screen and (max-width: 480px) {
+	.header_left_logo{ width:55px; overflow: hidden;}
+	.header_right_text{display:inline-block; vertical-align:middle; margin:20px 5px 0px 0px; float: right;} 
+	.header_right_text_title_1{display: block; font-family: 'chula', Helvetica, sans-serif; font-size: 0.8em; line-height: 1.2em; text-align: right;}
+	.header_right_text_title_2{display: block; font-family: 'chula', Helvetica, sans-serif; font-size: 1.2em; line-height: 1.4em; text-align: right;}
+
+	.panel_header{padding: 10px 0px;}
+
+	.form_full_width .caption{display:block; width:100%;}
+	.form_full_width .input{display:block; width:100%;}
+	.form_full_width .input2{display:block; width:100%;}
+	.form_half_width .caption{display:block; width:100%;}
+	.form_half_width .input{display:block; width:100%;}
+
+	.button_container .button{margin:5px 0px; display:block; width:100%;}
+	.button_container .left{display:block; width:100%;}
+	.button_container .right{display:block; width:100%;}
+
+	.data_list_page_add_bt button{width:auto; min-width: auto; margin:0px 0px;}
+	.data_list_page_add_bt_text{display:none;}
+
+	.data_table_pagination_row{display:block; width:100%;}
+	.data_table_pagination_page{display:none;}
+	
+	
+	.data_list_page_filter .filter_container .caption{text-align: left; color:#1F3D7D;}
+
+	/* Force table to not be like tables anymore */
+	.data_table.card table, .data_table.card thead, .data_table.card tbody, .data_table.card th, .data_table.card td, .data_table.card tr { display: block;}
+
+	/* Hide table headers (but not display: none;, for accessibility) */
+	.data_table.card thead tr { position: absolute; top: -9999px; left: -9999px;}
+	
+	.data_table.card .table_header{display: none;}
+
+	.data_table.card tr { border: 1px solid #ccc; margin-bottom: 20px; border-radius: 10px 10px;}
+	/* Behave  like a "row" */
+	.data_table.card td { border: none; border-bottom: 1px solid #eee; position: relative; padding-left: 50%; width:100%;}
+	/* Now like a table header */ /* Top/left values mimic padding */
+	.data_table.card td:before { position: absolute;top: 6px; left: 6px; width: 50%; padding-right: 10px; white-space: nowrap; color:#b43b6b; overflow: hidden; text-overflow: ellipsis}
+
+	.data_table.card td.cell_operation{padding:10px 10px; text-align: center;}
+	.data_table.card td .operation_bt{font-family: 'chula', Helvetica, sans-serif; font-size:1.4em; color: #FFFFFF; padding:5px 20px 3px 20px; margin:0px 5px;display:inline-block; width:90%; text-align: center; border:1px solid #999999; cursor:pointer; border-radius: 10px;}
+
+	.data_table.card td.group_row{padding:10px 10px; text-align: center;}
+
+	.content_link{display:block;}
+}
